@@ -1,0 +1,40 @@
+https://wiki.jenkins-ci.org/display/JENKINS/Status+Monitor+Plugin
+http://www.slideshare.net/kg4san/drupal-continuous-integration-with-jenkins
+
+NEEDS TO BE PUPPET-IFIED:
+
+http://jenkins-php.org/
+
+http://reload.github.com/jenkins-drupal-template/
+http://reload.github.com/phing-drupal-template/
+
+cd /var/lib/jenkins/jobs
+
+http://www.phing.info/docs/guide/stable/
+
+test: ssh -X root@33.33.33.12 -> run apps on x server, forwarded to your mac
+
+/usr/bin/Xvfb :20 -ac -screen 0 1024x768x8 &
+export DISPLAY=":20" && java -jar /usr/local/lib/selenium/selenium-server.jar -browserSessionReuse -htmlSuite *firefox http://www.storebaelt.dk/ /root/drupal-storebaelt-dk.suite /root/selenium.html
+
+SLAVES?
+
+http://code.google.com/p/gerrit/ - git code review
+http://vimeo.com/20084957 gerrit/jenkins
+
+http://www.sonarsource.org/features/
+
+http://www.devco.net/archives/2009/09/28/simple_puppet_module_structure.php
+
+http://stackoverflow.com/questions/8976573/selenium-tests-format-under-jenkins
+
+http://stackoverflow.com/questions/7154836/selenium-hangs-when-launching-firefox-on-ubuntu
+
+http://stackoverflow.com/questions/7106994/jenkins-cant-launch-selenium-tests-timed-out-waiting-for-profile-to-be-created
+
+ -firefoxProfileTemplate "/home/jenkins/.mozilla/firefox/0is6bl96.selenium"
+
+ Jenkins stuff based on:
+
+ * https://github.com/rdegges/puppet-jenkins
+ * https://github.com/rtyler/
